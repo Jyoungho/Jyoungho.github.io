@@ -165,3 +165,8 @@ leftJoinAndMapMany 를 사용할 경우 아래와 같이 개선하면 성능을 
 
 - (filter) leftjoin 절과 group by 를 제거한 후 id 값들을 가져오는 쿼리
 - (output) WHERE IN condition 을 활용한 쿼리
+
+<br><br>
+---
+출처:
+- "typeorm", https://orkhan.gitbook.io/typeorm/docs/select-query-builder
