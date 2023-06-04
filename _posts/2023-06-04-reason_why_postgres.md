@@ -43,4 +43,8 @@ join 방식에 대해서 소개하면 아래와 같은 join 수행방식이 존�
 
 **결제 및 장부서비스**의 경우 인덱스가 컬럼인 돈과 관련된 정보들이 조인 되는 경우가 종종 발생할 수 있기 때문에 hash_join 을 사용할 수 있는 postgres 를 선택하는 경향이 있습니다.
 
+## 결론
+장부서비스의 경우 insert 가 빈번하고, hash join 을 활용하기 위해서 postgreSQL 을 사용하는 것으로 결론지었습니다.
 
+
+출처 : https://coding-factory.tistory.com/757
